@@ -3,8 +3,8 @@
 This project is a minimalistic Express.js server that fetches user profile details from LeetCode using GraphQL. The server exposes an endpoint where you can provide a username, and it will return the corresponding user's details.
 
 ## How it Works
-Go to this url : 
-https://leetcodeapi.leftover.life/:username
+Go to this url, you will see the stats of particular user.
+`https://leetcodeapi.leftover.life/:username`
 
 ### Technologies Used
 
