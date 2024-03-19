@@ -9,7 +9,7 @@ app.use(cors());
 app.get('/', (req: Request, res: Response) => {
     res.json({
         Usage: {
-            '/:username/details': "get all the required details of user",
+            '/:username': "get all the required details of user",
         }
     });
 });
