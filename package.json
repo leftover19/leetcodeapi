@@ -5,6 +5,10 @@
     "devDependencies": {
         "bun-types": "latest"
     },
+    "scripts": {
+        "build"  : "tsc -b",
+        "start"  : "tsc -b && node dist/index.js"
+    },
     "peerDependencies": {
         "typescript": "^5.0.0"
     },

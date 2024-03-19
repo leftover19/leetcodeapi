@@ -1,6 +1,6 @@
 import express, { Response, Request } from 'express'
 import cors from 'cors'
-import query from './graphql/solvedQuery';
+import query from './graphql/Query';
 import fetchData from './fetchData';
 const app = express();
 
