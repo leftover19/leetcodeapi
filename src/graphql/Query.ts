@@ -3,6 +3,7 @@ query getUserProfile($username : String!) {
     matchedUser(username: $username) {
         profile {
             userAvatar
+            username
         }
         submitStats {
             acSubmissionNum {
